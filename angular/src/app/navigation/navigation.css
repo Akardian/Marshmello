@@ -1,0 +1,40 @@
+.navigation {
+	background: blueviolet;
+
+	height: 100vh;
+	width: 40px;
+
+	display: flex;
+
+
+    opacity: 0.8;
+    color: #ebebeb;
+    transition-property: width, opacity, background-color, color;
+    transition-duration: 0.5s;
+
+	align-content: flex-start;
+}
+
+.toggle-btn {
+	background: transparent;
+
+	margin: 5px;
+	padding: 5px;
+	border-radius: 4px;
+	height: 30px;
+
+	border: 1px solid var(--primary-contrast, black);
+	color: var(--primary-contrast, black);
+
+	cursor: pointer;
+}
+
+.open {
+	width: 140px;
+
+	transition-duration: 0.5s;
+	opacity: 1;
+
+	background: #475569;
+	color: #f9fafb;
+}
