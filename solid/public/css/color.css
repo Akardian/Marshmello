@@ -1,0 +1,16 @@
+
+.minimal-theme {
+	--bg-primary: #121212;
+	--bg-secondary: #1e1e1e;
+	--accent: #10b981;
+	--text: #ecfdf5;
+	--hover: #065f46;
+}
+
+.jade-theme {
+	--bg-primary: #243428;
+	--bg-secondary: #344d38;
+	--accent: #6bff9a;
+	--text: #ecffec;
+	--hover: #45a868;
+}

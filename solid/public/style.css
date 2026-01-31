@@ -1,0 +1,10 @@
+@import "css/color.css";
+
+body {
+	margin: 0;
+
+	color: var(--text);
+	background: var(--bg-primary);
+
+	font-family: Georgia, serif;
+}
